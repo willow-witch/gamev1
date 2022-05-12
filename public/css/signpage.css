@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+input[type="email"]
+{
+    font-size: 20px;
+}
+
+input[type="password"]
+{
+    font-size: 20px;
+}
+
+.sign-form {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 40px auto auto auto;
+    height: fit-content;
+}
+
+.logo-img-big {
+    display: block;
+    width: inherit;
+    height: 150px;
+    background-image: url("../img/logos/logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 37px;
+}
+
+.sign-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 55px;
+    border-radius: 5px;
+    margin-bottom: 37px;
+    background-color: rgba(244, 149, 44, 1);
+}
+
+.sign-btn a {
+    color: white;
+    text-decoration: none;
+}
+
+.sign-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    border-radius: 5px;
+    margin-bottom: 37px;
+    padding-left: 20px;
+    border: solid rgba(196, 196, 196, 1) 1px;
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0 50px 0;
+}
